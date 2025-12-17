@@ -9,6 +9,8 @@ public class Main {
         Q2.evenNumbers1To50();
         Q2.oddNumbers1To50();
 
+        Q3.oddNumbersInRange(2,80);
+        Q3.numbersDivisibleBy5(20,5);
 
     }
 }
