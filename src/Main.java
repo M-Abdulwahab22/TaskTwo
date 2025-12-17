@@ -12,5 +12,6 @@ public class Main {
         Q3.oddNumbersInRange(2,80);
         Q3.numbersDivisibleBy5(20,5);
 
+        Q4.seriesValue(2);
     }
 }
