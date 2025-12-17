@@ -16,8 +16,9 @@ public class Main {
 //
 //        Q5.factorial(8);
 
-        Q6.primeNumber(100);
+//        Q6.primeNumber(100);
 
+        Q7.average();
 
     }
 }
