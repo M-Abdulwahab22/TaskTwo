@@ -13,5 +13,11 @@ public class Main {
         Q3.numbersDivisibleBy5(20,5);
 
         Q4.seriesValue(2);
+
+        Q5.factorial(8);
+
+
+
+
     }
 }
