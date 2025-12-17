@@ -2,15 +2,15 @@ package Questions;
 import java.util.Scanner;
 
 public class Q7 {
-    static public void average() {
+    public static void average() {
         Scanner s = new Scanner(System.in);
-        int input = 0;
-        int count = 0;
-        int sum = 0;
+        double input = 0.0;
+        double count = 0.0;
+        double sum = 0.0;
        do{
            input = s.nextInt();
 
-           if(input < 0)
+           if(input < 0.0)
            {
                break;
            }
@@ -18,8 +18,8 @@ public class Q7 {
            sum+= input;
            count++;
 
-       }while(input >= 0);
+       }while(true);
       double avg = (double)(sum/count);
-        System.out.println("average = " + sum / count);
+        System.out.println("average = " + avg);
     }
 }

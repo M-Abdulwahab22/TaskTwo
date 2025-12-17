@@ -1,11 +1,19 @@
 package Questions;
 
 public class Q6 {
-    static public void primeNumber (int n)
+    public static void primeNumber (int n)
     {
-      boolean isPrime = true;
 
-      for(int i = 2; i * i <= n; i++)
+      if(n <= 1)
+      {
+         System.out.println(n + " is not a prime number!");
+         return;
+      }
+
+        boolean isPrime= true;
+
+
+        for(int i = 2; i * i <= n; i++)
       {
           if(n % i == 0)
           {

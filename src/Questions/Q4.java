@@ -1,7 +1,7 @@
 package Questions;
 
 public class Q4 {
-    static public void seriesValue(int n)
+    public static void seriesValue(int n)
     {
         int sum = 0;
 

@@ -1,7 +1,7 @@
 package Questions;
 
 public class Q3 {
-   static public void oddNumbersInRange(int a, int b)
+    public static void oddNumbersInRange(int a, int b)
    {
        int min = (a < b ? a : b);
        int max = (a > b ? a : b);
@@ -9,7 +9,7 @@ public class Q3 {
        System.out.print("odd numbers between " + min + " and "+max + " is :\t");
        for(int i = min; i <= max; i++)
        {
-           if(i % 2 == 1)
+           if(i % 2 != 0)
            {
                System.out.print(i + "\t");
 
@@ -19,7 +19,7 @@ public class Q3 {
        System.out.println();
    }
 
-   static public void numbersDivisibleBy5(int a , int b)
+    public static void numbersDivisibleBy5(int a , int b)
    {
        int min = (a < b ? a : b);
        int max = (a > b ? a : b);

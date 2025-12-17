@@ -1,7 +1,7 @@
 package Questions;
 
 public class Q1 {
-    static public void sum1To1000ForLoop()
+    public static void sum1To1000ForLoop()
     {
         int sum = 0;
 
@@ -13,7 +13,7 @@ public class Q1 {
         System.out.println("Sum of all numbers between 1 and 1000 using for loop = " + sum);
     }
 
-    static public void sum1To1000WhileLoop()
+    public static void sum1To1000WhileLoop()
     {
         int sum = 0;
         int i = 1;
@@ -28,7 +28,7 @@ public class Q1 {
 
     }
 
-    static public void sum1To1000DoWhileLoop()
+    public static void sum1To1000DoWhileLoop()
     {
         int sum = 0;
         int i = 1;

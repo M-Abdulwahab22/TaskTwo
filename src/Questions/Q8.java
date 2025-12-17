@@ -2,7 +2,7 @@ package Questions;
 
 public class Q8 {
 
-    static public void shape()
+    public static void shape()
     {
         int n = 4;
         for (int i = 1; i <=n; i++)
